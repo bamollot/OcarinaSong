@@ -1,0 +1,81 @@
+name: OcarinaSong
+version: 1.0
+description: Provides perks for voting for the server. For Outbreak-Gaming.
+author: hoohoo4
+main: me.hoohoo4.ocarinasong.OcarinaSong
+
+permissions:
+    ocarina:
+            default: op
+            description: Lets you play the Ocarina!
+    ocarina.time:
+            default: op
+            description: Lets you play the Song of Time wtih effect!
+    ocarina.time.awaken:
+            default: op
+            description: Lets you trigger Song of Time detectors!
+    ocarina.time.sign:
+            default: op
+            description: Lets you create Song of Time detectors!
+    ocarina.storms:
+            default: op
+            description: Lets you play the Song of Storms; Change Weather!
+    ocarina.healing:
+            default: op
+            description: Makes it so that playing the Song of Healing will gradually heal you!
+    ocarina.healing.wool:
+            default: op
+            description: Makes it so that playing the Song of Healing will replenish sheep wool!
+    ocarina.healing.pig:
+            default: op
+            description: Makes it so that playing the Song of Healing will heal Pigmen into pigs!
+    ocarina.healing.burn:
+            default: op
+            description: Makes it so that playing the Song of Healing will burn the evil out of mobs!
+    ocarina.zelda.calm:
+            default: op
+            description: Allows you to calm wild animals using Zelda's Lullaby!
+    ocarina.zelda.tame:
+            default: op
+            description: Allows you to tame wild animals using Zelda's Lullaby!
+    ocarina.zelda.awaken:
+            default: op
+            description: Allows you to trigger Zelda's Lullaby detetors!
+    ocarina.zelda.sign:
+            default: op
+            description: Allows you to create Zelda's Lullaby detetors!
+    ocarina.awakening:
+            default: op
+            description: Allows you to awaken old things using the Sonata of Awakening!
+    ocarina.awakening.sign:
+            default: op
+            description: Allows you to create signs to be triggered by the Sonata of Awakening!
+    ocarina.horses.dismountopponent:
+            default: op
+            description: Allows you to attempt to dismount your opponent!
+    ocarina.epona.call:
+            default: op
+            description: Allows you to call your horse/pet if you have one.
+    ocarina.zelda.tameforriding:
+            default: op
+            description: Allows you to tame creatures to ride and use with Epona's Song!
+            
+            
+            
+commands:
+    ocarina:
+        description: Checks the list of songs playable on your ocarina!
+        aliases: [ocarina, songs]
+        usage: /ocarina
+    play:
+        description: Tests the ocarina
+        aliases: [play, p]
+        usage: /play
+    stopplay:
+        description: Tests the ocarina
+        aliases: [stopplay, sp]
+        usage: /play
+    /:
+        description: Plays a note
+        aliases: [n, note, playnote]
+        usage: // [int]
